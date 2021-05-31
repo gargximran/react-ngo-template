@@ -1,13 +1,14 @@
 import { Switch, Route } from "react-router-dom";
-import TestComponent from "./TestComponent"
+import Donation from "./Pages/DonationPage";
+import TestComponent from "./TestComponent";
 
 const Routes = () => {
   return (
     <Switch>
       <Route path={"/test"} exact component={TestComponent} />
-      
+      <Route path={"/donate"} exact component={Donation} />
     </Switch>
   );
 };
 
-export default Routes
+export default Routes;
