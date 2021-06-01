@@ -1,0 +1,3 @@
+.dropDown {
+  @apply focus:outline-none focus:border-red-600 w-full bg-transparent rounded-3xl text-paragraph mt-3 pt-2 pb-2 pl-4 border  border-gray-300;
+}

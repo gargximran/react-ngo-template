@@ -1,7 +1,8 @@
+import Donation from "./Pages/DonationPage";
 const TestComponent = () => {
   return (
     <>
-      <h1 className="text-primary">hello from test component</h1>{" "}
+      <Donation />
     </>
   );
 };
