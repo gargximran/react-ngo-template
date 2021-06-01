@@ -32,6 +32,9 @@ module.exports = {
       },
       minHeight: {
         '150px': '150px'
+      },
+      zIndex: {
+        '-1': '-1'
       }
     },
   },
