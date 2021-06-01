@@ -34,5 +34,5 @@
 
 .nav-trigger-icon{
     @apply absolute flex lg:hidden top-3 right-3;
-    z-index: -1;
+    z-index: 99999999;
 }
