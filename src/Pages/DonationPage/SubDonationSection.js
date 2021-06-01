@@ -6,18 +6,22 @@ import DonationCampaign from "./DonationCampaign";
 import DonationTextMessage from "./DonationTextMessage";
 import DonationPersonalInfo from "./DonationPersonalInfo";
 import DonationTitle from "./DonationTitle";
+import DonationHeader from "./DonationHeader";
 
 const SubDonationSection = () => {
   return (
-    <div className={"w-screen md:w-11/12 mx-auto"}>
-      <DonationTitle title={"Donation details"} />
-      <DonationAmount />
-      <DonationMethod />
-      <DonationInterval />
-      <DonationCampaign />
-      <DonationTextMessage />
-      <DonationPersonalInfo />
-    </div>
+    <>
+      <DonationHeader />
+      <div className={"w-screen md:w-11/12 mx-auto"}>
+        <DonationTitle title={"Donation details"} />
+        <DonationAmount />
+        <DonationMethod />
+        <DonationInterval />
+        <DonationCampaign />
+        <DonationTextMessage />
+        <DonationPersonalInfo />
+      </div>
+    </>
   );
 };
 

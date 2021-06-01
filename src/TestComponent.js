@@ -1,8 +1,8 @@
-import Donation from "./Pages/DonationPage";
+import SubSponsorSection from "./Pages/Homepage/SubSponsorSection";
 const TestComponent = () => {
   return (
     <>
-      <Donation />
+      <SubSponsorSection />
     </>
   );
 };

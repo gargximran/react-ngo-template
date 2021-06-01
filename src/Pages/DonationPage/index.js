@@ -4,7 +4,7 @@ import SubDonatorSection from "./SubDonatorSection";
 
 const Donation = () => {
   return (
-    <div>
+    <div style={{ marginTop: "-20px" }}>
       <SubDonationSection />
       <br />
       <SubDonatorSection />

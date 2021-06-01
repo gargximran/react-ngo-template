@@ -17,7 +17,7 @@ const DonationPersonalInfo = () => {
           size="small"
         />
         <label
-          for="personalInfo"
+         htmlFor="personalInfo"
           className={"text-gray-500 text-xs md:text-sm pl-2 font-semibold"}
         >
           CHECK THIS BOX TO HIDE YOUR PERSONAL INFO IN OUR DONATORS LIST
