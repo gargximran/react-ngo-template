@@ -12,8 +12,8 @@ const DonationMethod = () => {
       >
         {payment.map((value, index) => (
           <div className={"mb-2"} key={index}>
-            <input type="radio" id={index} name="payment" value={value} />
-            <label className={"pl-2 text-gray-400"} for={index}>
+            <input type="radio" id={'paymentSlectionMethod' + index} name="payment" value={value} />
+            <label className={"pl-2 text-gray-400"} htmlFor={'paymentSlectionMethod' + index}>
               {value}
             </label>
           </div>
