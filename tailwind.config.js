@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         primary: ["Montserrat", "sans-serif"],
         secondary: ["Roboto", "sans-serif"],
+        serif: ['serif']
       },
       fontSize: {
         "head-1": "85px",
@@ -29,6 +30,9 @@ module.exports = {
         primary: "#1C4695",
         secondary: "#EF7267",
       },
+      minHeight: {
+        '150px': '150px'
+      }
     },
   },
   variants: {

@@ -1,8 +1,8 @@
-import Donation from "./Pages/DonationPage";
+import SubHomeHero from "./Pages/Homepage/SubHomeHero";
 const TestComponent = () => {
   return (
     <>
-      <Donation />
+      <SubHomeHero />
     </>
   );
 };
