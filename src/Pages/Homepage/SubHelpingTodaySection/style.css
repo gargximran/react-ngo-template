@@ -1,0 +1,15 @@
+.subVolunteerSection-container{
+   object-fit: contain;
+    @apply w-full  mx-auto
+}
+
+.span{
+    @apply text-secondary
+}
+
+.subVolunteerSection-content{
+ background-image: url(../../../Assets/Images/rightImage.jpg);
+ background-size: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+}
