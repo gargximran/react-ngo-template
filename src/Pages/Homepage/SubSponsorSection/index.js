@@ -14,7 +14,7 @@ const SubSponsorSection = () => {
                 {
                     [unisefLogo, afterPaylogo, firstHealthLogov, lovatoLogo, afterPaylogo2].map((logo, index) => (
                         <div className={'h-32 flex items-center'} key={index}>
-                            <img className={'h-16 my-auto px-3 opacity-75 hover:opacity-100 hover:bg-white'} src={logo} alt="No Image!"/>
+                            <img className={'h-8 my-auto px-3 opacity-75 hover:opacity-100 hover:bg-white'} src={logo} alt="No Image!"/>
                         </div>
                     ))
                 }
