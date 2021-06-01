@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         primary: ["Montserrat", "sans-serif"],
         secondary: ["Roboto", "sans-serif"],
-        serif: ['serif']
+        serif: ["serif"],
       },
       fontSize: {
         "head-1": "85px",
@@ -26,16 +26,34 @@ module.exports = {
         paragraph: "16px",
         "paragraph-sm": "14px",
       },
+      height: (theme) => ({
+        "screen/2": "50vh",
+        "screen/40": "40vh",
+        "screen/45": "45vh",
+        "screen/60": "60vh",
+        "screen/29": "29vh",
+        "screen/25": "25vh",
+        "screen/3": "calc(100vh / 3)",
+        "screen/4": "calc(100vh / 4)",
+        "screen/5": "calc(100vh / 5)",
+      }),
       colors: {
         primary: "#1C4695",
         secondary: "#EF7267",
       },
+      backgroundColor: (theme) => ({
+        ...theme("colors"),
+        primary: "#3490dc",
+        secondary: "#ffed4a",
+        danger: "#e3342f",
+        donation: "#5CACA9",
+      }),
       minHeight: {
-        '150px': '150px'
+        "150px": "150px",
       },
       zIndex: {
-        '-1': '-1'
-      }
+        "-1": "-1",
+      },
     },
   },
   variants: {
