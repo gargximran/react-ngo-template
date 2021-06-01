@@ -49,16 +49,11 @@ module.exports = {
         donation: "#5CACA9",
       }),
       minHeight: {
-<<<<<<< HEAD
         "150px": "150px",
       },
-=======
-        '150px': '150px'
-      },
       zIndex: {
-        '-1': '-1'
-      }
->>>>>>> ad760084958450a99c73b56d0b1b954742484474
+        "-1": "-1",
+      },
     },
   },
   variants: {
