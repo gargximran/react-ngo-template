@@ -1,8 +1,8 @@
-import SubHomeHero from "./Pages/Homepage/SubHomeHero";
+import SubSponsorSection from "./Pages/Homepage/SubSponsorSection";
 const TestComponent = () => {
   return (
     <>
-      <SubHomeHero />
+      <SubSponsorSection />
     </>
   );
 };
