@@ -9,7 +9,7 @@ import "./style.css";
 const Footer = () => {
   return (
     <>
-      <div className="grid grid-cols-2 md:grid-cols-6 pl-12 pr-12">
+      <div className="grid grid-cols-2 md:grid-cols-6 pl-12 pr-12 mt-7">
         <section className="col-span-2 md:col-span-3 lg:pl-24 lg:pr-16 sm:pt-10">
           <div className="flex font-primary">
             <FooterLogo />

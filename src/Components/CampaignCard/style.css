@@ -1,0 +1,35 @@
+.campaignCard-progressbar-container {
+  @apply h-1 bg-gray-200 mt-10;
+}
+
+.campaignCard-progressbar-bar {
+  @apply h-full bg-primary relative;
+}
+
+.campaignCard-progressbar-bar::after {
+  content: "";
+  top: -6px;
+  @apply absolute left-full transform -translate-x-1/2 w-4 h-4  rounded-full border-2 bg-primary;
+}
+
+.campaignCard-progressbar-percentage {
+  position:absolute;
+    top: -28px;
+  @apply text-sm left-full transform -translate-x-1/2;
+}
+
+.campaignCard-image-container{
+
+    @apply w-full relative;
+}
+
+.campaignCard-image{
+@apply w-full h-full object-cover z-0;
+}
+
+.campaignCard-image-badge{
+
+    @apply  px-6 py-2 absolute left-1/2 -bottom-4 rounded-lg transform -translate-x-1/2  bg-secondary text-white text-sm ;
+
+}
+
