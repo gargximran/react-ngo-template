@@ -38,14 +38,11 @@ module.exports = {
         "screen/5": "calc(100vh / 5)",
       }),
       colors: {
-        primary: "##5AACA9",
-        secondary: "#EF7267",
+        primary: "#5AACA9",
+        secondary: "#EF7268",
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
-        primary: "#3490dc",
-        secondary: "#ffed4a",
-        danger: "#e3342f",
         donation: "#5CACA9",
       }),
       minHeight: {
