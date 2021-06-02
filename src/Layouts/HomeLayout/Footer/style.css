@@ -1,0 +1,9 @@
+.footer-categories-list li{
+    @apply mt-2 cursor-pointer duration-500;
+
+}
+
+.footer-categories-list li:hover{
+    @apply text-primary transform translate-x-2;
+}
+

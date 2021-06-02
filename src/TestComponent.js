@@ -1,7 +1,8 @@
+import SubCategoryShowupSection from "./Pages/Homepage/SubCategoryShowupSection";
 const TestComponent = () => {
   return (
     <>
-      <h1 className="text-primary">hello from test component</h1>{" "}
+      <SubCategoryShowupSection />
     </>
   );
 };
