@@ -38,7 +38,7 @@ module.exports = {
         "screen/5": "calc(100vh / 5)",
       }),
       colors: {
-        primary: "#1C4695",
+        primary: "##5AACA9",
         secondary: "#EF7267",
       },
       backgroundColor: (theme) => ({

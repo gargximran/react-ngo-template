@@ -3,14 +3,13 @@ import { ReactComponent as FooterLogo } from "../../../Assets/footer_logo.svg";
 import { GrFacebookOption } from "react-icons/gr";
 import { FiTwitter } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
-import {AiOutlineCopyrightCircle} from "react-icons/ai";
+import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import "./style.css";
 
 const Footer = () => {
   return (
     <>
       <div className="grid grid-cols-2 md:grid-cols-6 pl-12 pr-12">
-        
         <section className="col-span-2 md:col-span-3 lg:pl-24 lg:pr-16 sm:pt-10">
           <div className="flex font-primary">
             <FooterLogo />

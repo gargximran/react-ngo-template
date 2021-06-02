@@ -1,3 +1,4 @@
+import SubHelpingTodaySection from "./SubHelpingTodaySection";
 import SubHomeHero from "./SubHomeHero";
 import SubSponsorSection from "./SubSponsorSection";
 import SubVoluneerSection from "./SubVoluneerSection";
@@ -9,6 +10,7 @@ const Homepage = () => {
             <SubHomeHero></SubHomeHero>
             <SubSponsorSection />
             <SubVoluneerSection />
+            <SubHelpingTodaySection/>
         </>
     )
 }
