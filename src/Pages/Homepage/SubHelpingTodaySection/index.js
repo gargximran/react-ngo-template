@@ -3,7 +3,7 @@ import leftImage from "../../../Assets/Images/leftImage.jpg";
 import "./style.css";
 const SubHelpingTodaySection = () => {
   return (
-    <div className="subVolunteerSection-container grid grid-cols-2 mb-8">
+    <div className="subVolunteerSection-container grid grid-cols-2">
       <div className="subVolunteerSection-image-container col-span-2 md:col-span-1">
         <img src={leftImage} alt="" className=" w-full" />
       </div>
@@ -17,7 +17,7 @@ const SubHelpingTodaySection = () => {
           Join our community to become a volunteer and you can devote your life
           to helping others
         </p>
-        <button className="bg-red-400 px-7 py-2 rounded-lg text-white focus:outline-none border-none hover:bg-green-600 duration-300">
+        <button className="bg-secondary px-7 py-2 rounded-lg text-white focus:outline-none border-none hover:bg-primary duration-300">
           Join us !
         </button>
       </div>

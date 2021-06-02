@@ -4,6 +4,6 @@
 }
 
 .footer-categories-list li:hover{
-    @apply text-green-600 transform translate-x-2;
+    @apply text-primary transform translate-x-2;
 }
 
