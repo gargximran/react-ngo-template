@@ -1,8 +1,8 @@
-import SubSponsorSection from "./Pages/Homepage/SubSponsorSection";
+import SubCategoryShowupSection from "./Pages/Homepage/SubCategoryShowupSection";
 const TestComponent = () => {
   return (
     <>
-      <SubSponsorSection />
+      <SubCategoryShowupSection />
     </>
   );
 };

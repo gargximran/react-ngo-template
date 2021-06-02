@@ -2,6 +2,7 @@ import SubHelpingTodaySection from "./SubHelpingTodaySection";
 import SubHomeHero from "./SubHomeHero";
 import SubSponsorSection from "./SubSponsorSection";
 import SubVoluneerSection from "./SubVoluneerSection";
+import SubCategoryShowupSection from "./SubCategoryShowupSection";
 
 
 const Homepage = () => {
@@ -10,7 +11,9 @@ const Homepage = () => {
             <SubHomeHero></SubHomeHero>
             <SubSponsorSection />
             <SubVoluneerSection />
-            <SubHelpingTodaySection/>
+            <SubCategoryShowupSection />
+            <SubHelpingTodaySection />
+
         </>
     )
 }
